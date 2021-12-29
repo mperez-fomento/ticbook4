@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Entiende los porqués',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Todo tiene una razón de ser y una historia. Conocerlas ayuda a aprender los conceptos,
+        y facilita recordarlos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Céntrate en lo esencial',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Para que un ordenador funcione como queremos hay que tener en cuenta
+        una infinidad de detalles. Pero hay que empezar por lo esencial.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Teoría y práctica',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Contiene gran cantidad de ejercicios para practicar lo aprendido
+        en la teoría, mejorando la comprensión y la retención.
       </>
     ),
   },

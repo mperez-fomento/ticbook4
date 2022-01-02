@@ -90,3 +90,41 @@
      - Es más fácil conservar la privacidad del código fuente en el caso de los programas compilados, porque solo se distribuyen los archivos ejecutables.
 
        Los programas escritos en JavaScript suelen ser programas interpretados.
+
+**** Sentencias
+
+     :::info
+
+     Las *sentencias* en un lenguaje de programación son las unidades mínimas ejecutables.
+
+     :::
+
+     Es decir, una sentencia es una orden que damos al ordenador para que la ejecute.
+
+     Podríamos decir que un programa es una secuencia de sentencias que el ordenador tiene que ejecutar[fn:1].
+     
+     En el lenguaje máquina, a las unidades mínimas de ejecución se les llama /instrucciones/.
+
+     Normalmente, *escribimos cada sentencia en una línea*. Pero, a veces, la sentencia es compleja, y preferimos escribirla en varias líneas para que sea más fácil leerla. En algunos lenguajes, es posible escribir varias sentencias en una línea, pero no solemos hacerlo, porque el código resulta más difícil de leer.
+
+     En JavaScript, las sentencias terminan con /punto y coma/ (~;~).
+
+     Ejemplos de sentencias en varios lenguajes (todas las sentencias hacen lo mismo: escribir un saludo en la pantalla):
+
+#+begin_src cpp 
+  std::cout << "Hello, world!\n";
+#+end_src
+
+#+begin_src python
+  print("Hello, world!")
+#+end_src
+
+#+begin_src js
+  document.write("Hello, world!");
+#+end_src
+
+
+**** Notas
+
+[fn:1] En realidad, esta definición de programa es demasiado simple. Los lenguajes nos permiten usar construcciones más complejas que las sentencias, para establecer el orden en que se deben ejecutar las sentencias, para dar nombres a grupos de sentencias, y otras similares. Esas construcciones son también parte, y parte importante, en los programas. Por otro lado, esta forma de entender los programas (como secuencias de sentencias) es sólo una de las posibles. También se puede considerar que un programa es un conjunto de definiciones de expresiones que hay que evaluar.
+

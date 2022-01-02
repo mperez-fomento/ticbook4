@@ -2,34 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Veamos brevemente qué encontrarás en este libro.
 
-## Getting Started
+## Teoría
 
-Get started by **creating a new site**.
+Aquí tienes explicados los conceptos necesarios para empezar a programar utilizando JavaScript.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Todos los conceptos están ilustrados con ejemplos, que faciliten su comprensión.
 
-## Generate a new site
+Las ideas más importantes aparecen destacadas en recuadros azules. Si quieres repasar algo que ya estudiaste, puede ser suficiente que leas esos recuadros.
 
-Generate a new Docusaurus site using the **classic template**:
+## Práctica
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+Al final de cada capítulo hay una colección de ejercicios.
 
-## Start your site
+Haciendo los ejercicios comprenderás mejor lo que has estudiado en la teoría.
 
-Run the development server:
+Los ejercicios sirven también para memorizar conceptos, sintaxis, métodos...
 
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+Algunos ejercicios están pensados para hacer con lápiz y papel. Muchos están pensados para hacer con el ordenador. Otros puedes hacerlos tanto en papel como en ordenador. En ciertos casos, puedes hacer los ejercicios en papel, y luego comprobar tu solución utilizando el ordenador.

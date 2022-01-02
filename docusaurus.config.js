@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TICBook4',
   tagline: 'Hello world!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ticbook4.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

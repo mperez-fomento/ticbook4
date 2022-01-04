@@ -21,7 +21,13 @@ En algunos ejemplos pueden aparecer cosas que no se han explicado. Eso es porque
 
 ## Memoriza los recuadros
 
-Las ideas más importantes aparecen recuadradas. Deberías memorizar esos recuadros, pues contienen ideas esenciales, que necesitarás para poder aprender otras nuevas.
+:::info
+
+Las ideas más importantes aparecen recuadradas.
+
+:::
+
+Deberías memorizar esos recuadros, pues contienen ideas esenciales, que necesitarás para poder aprender otras nuevas.
 
 Las ideas que aparecen en los recuadros aparecerán a lo largo del curso en varias ocasiones, por lo que terminarán por resultarte bien conocidas. Sin embargo, conviene contar con ellas en nuestra memoria lo antes posible, para facilitar la comprensión de las ideas que se vayan construyendo sobre ellas.
 
@@ -34,3 +40,12 @@ Hay ejercicios que debes hacer con papel y bolígrafo: es la mejor manera de pen
 Por supuesto, no hay problema en que utilices el ordenador para comprobar tu solución. Pero, siempre después de haber llegado a la solución pensando. No conviene que vayas cambiando cosas en el código, sin saber por qué, simplemente esperando que algún cambio haga funcionar al programa.
 
 Algunos ejercicios (sobre todo los que están al final de cada tema) están pensados para hacerlos con el ordenador. También tenemos que aprender a manejar las herramientas. Además, hacerlos con el ordenador facilita mucho comprobar que funcionan como deberían.
+
+Unos iconos, junto a cada ejercicio, te ayudarán a identificar el tipo de ejercicio:
+
+- 📝 Ejercicio para hacer con papel y bolígrafo.
+- 📝 💻 Ejercicio para hacer con papel y bolígrafo, que puedes comprobar con el ordenador.
+- 💻 Ejercicio que debes hacer con el ordenador.
+- 🔎 Requiere investigación: no es suficiente con lo que se explica en el libro.
+- 🛸 Difícil: no te desanimes si no consigues resolverlo a la primera. Pide ayuda.
+- 🎓 Proyecto: se trata de un programa largo, que te llevará más tiempo, y con el que aprenderás mucho.

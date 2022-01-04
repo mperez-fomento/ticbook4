@@ -5,7 +5,13 @@ Las condiciones que podemos comprobar en una sentencia condicional son expresion
 - ~true~: la condición se cumple (es verdadera);
 - ~false~: la condición no se cumple (es falsa).
 
-Una expresión que puede tener solo uno de esos dos valores se llama /expresión booleana/.
+:::info
+
+Una /expresión booleana/ es una expresión que puede tener solo uno de estos dos valores: ~true~, ~false~.
+
+:::
+
+:::info
 
 Las expresiones booleanas están formadas por los siguientes elementos:
 
@@ -13,11 +19,19 @@ Las expresiones booleanas están formadas por los siguientes elementos:
 - Conectores lógicos (and, or, etc.)
 - Valores booleanos (~true~, ~false~)
 
+:::
+
+:::info
+
+Las condiciones que comprueban las sentencias condicionales han de ser expresiones booleanas.
+
+:::
+
 Las sentencias condicionales evalúan la condición, y ejecutan el bloque correspondiente según el valor de la condición sea ~true~ o ~false~.
 
 ** Comparaciones
 
-Una comparación está formada por dos valores que se comparan y operador de comparación que especifica qué comparación queremos hacer.
+Una comparación está formada por dos valores que se comparan y /operador de comparación/ que especifica qué comparación queremos hacer.
 
 Los operadores de comparación que podemos usar son los siguientes:
 
@@ -78,6 +92,8 @@ x > 5 || y > x; // true
 !(x > y); // true
 #+end_src
 
+:::info
+
 Los operadores lógicos y los de comparación tienen un orden de evaluación (similar a los aritméticos). De mayor a menor precedencia (los primeros se evalúan antes):
 
 1. Not (~!~)
@@ -86,6 +102,8 @@ Los operadores lógicos y los de comparación tienen un orden de evaluación (si
 4. Or (~||~)
 
 Se pueden usar *paréntesis* para modificar el orden de evaluación (la expresión entre paréntesis siempre se evalúa antes).
+
+:::
 
 Ejemplos:
 
@@ -105,9 +123,9 @@ Las comparaciones se evalúan a un valor booleano.
 
 Los operadores lógicos operan con valores booleanos y dan como resultado un valor booleano.
 
-Es posible crear objetos de tipo ~Boolean~ para almacenar un valor ~true~ o ~false~ obtenido mediante una expresión booleana.
+Un objeto de tipo ~Boolean~ es un objeto cuyo valor es un valor booleano (~true~ o ~false~).
 
-Una función puede devolver también un valor booleano.
+Una función puede devolver un valor booleano.
 
 #+begin_src javascript
 let b = new Boolean(true);

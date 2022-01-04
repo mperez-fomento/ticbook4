@@ -82,7 +82,7 @@ Son muchos los eventos que un programa puede capturar y manejar. Indicamos a con
 Se llama `cursor` a un icono (normalmente, una flecha), que indica la posición del ratón en la pantalla. Aunque el `cursor` no sea visible, el ratón tiene siempre una posición sobre la pantalla. Las acciones del ratón se refieren siempre al punto en el que se encuentra el `cursor`.
 
 | **Aplicable a** | **Evento**       | **Significado**                                                       |
-|-|-|-|
+|-----------------|------------------|-----------------------------------------------------------------------|
 | Obj. Gráficos   | `click`          | Se ha pulsado y soltado el botón izquierdo del ratón sobre el objeto. |
 | Obj. Gráficos   | `dblclick`       | Se ha hecho doble click sobre el objeto.                              |
 | Obj. Gráficos   | `mouseover`      | El cursor ha entrado en el objeto.                                    |

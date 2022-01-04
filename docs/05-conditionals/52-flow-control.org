@@ -4,9 +4,19 @@
 
 Dijimos que un programa es una secuencia de sentencias que el ordenador debe ejecutar.
 
-El orden en que el ordenador ejecuta dichas sentencias se llama /flujo de ejecución/.
+:::info
 
-Normalmente, las sentencias se ejecutan en el orden en que están escritas. Las sentencias que permiten alterar ese orden de ejecución, determinando quė sentencias se ejecutan en cada momento, se llaman /sentencias de control de flujo/.
+El orden en que el ordenador ejecuta las sentencias de un programa se llama /flujo de ejecución/.
+
+:::
+
+Normalmente, las sentencias se ejecutan en el orden en que están escritas.
+
+:::info
+
+Las sentencias que permiten alterar ese orden de ejecución, determinando quė sentencias se ejecutan en cada momento, se llaman /sentencias de control de flujo/.
+
+:::
 
 Las sentencias condicionales son sentencias de control de flujo, porque determinan que ciertas sentencias se ejecuten o no.
 
@@ -14,12 +24,31 @@ Las sentencias condicionales establecen una bifurcación en el flujo de ejecuci�
 
 ** Diagramas de flujo
 
+:::info
+
 El flujo de ejecución de un programa puede representarse gráficamente mediante un /diagrama de flujo/.
 
 En un diagrama de flujo, las sentencias se representan mediante rectángulos, y el flujo de ejecución mediante flechas que unen dichos rectángulos indicando el orden en que se ejecutan.
 
-Una sentencia condicional tiene dos partes: la comprobación de cierta condición, y la secuencia de sentencias que se ejecutarán en caso de que la condición se cumpla. La comprobación de la condición se representa con un rombo.
+En una sentencia condicional, la comprobación de la condición se representa con un rombo.
+
+:::
 
 Por ejemplo, un programa para calcular las soluciones de una ecuación de segundo grado podría tener el siguiente diagrama de flujo:
 
 [[../../static/img/conditional-flow.drawio.png]]
+
+** Ejercicios
+
+1. 📝 Dibuja el diagrama de flujo correspondiente al proceso para determinar si un alumno aprueba o no la prueba de acceso a la Universidad, teniendo su nota media de Bachillerato (BAC), y su nota media del Bloque Obligatorio de la EvAU (BO):
+
+  - Si suspende alguna asignatura en Bachillerato, no se presenta a la EvAU.
+  - Si aprueba todas:
+    - Calcular la nota media de BAC: BAC
+    - Se presenta a la EvAU.
+    - Calcular la nota media del bloque obligatorio: BO.
+    - Si su nota media del bloque obligatorio (BO) es menor que 4, no aprueba.
+    - Si no:
+      - Calcular su nota de acceso: 0.6 x BAC + 0.4 x BO
+      - Si la nota de acceso es menor que 5, no aprueba.
+      - Si no, aprueba.

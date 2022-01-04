@@ -42,4 +42,94 @@ alert('División: ' + num/den);
 
 El diagrama de flujo correspondiente sería el siguiente:
 
-![img](../../static/img/if-sentence-example.drawio.png)
+![img](../../static/img/if-sentence-example-1.drawio.png)
+
+
+## Ejercicios
+
+1.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+    
+    ```javascript
+    let x = 5;
+    if (x < 0) {
+      document.write("Negativo");
+    }
+    ```
+
+2.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+    
+    ```javascript
+    let x = prompt("Escriba un número");
+    if (x < 0) {
+      x = -x;
+    }
+    document.write(x);
+    ```
+
+3.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
+    
+    ![img](../../static/img/ticbook4-ej5.3.3.drawio.png)
+
+4.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
+    
+    ![img](../../static/img/ticbook4-ej5.3.4.drawio.png)
+
+5.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+    
+    ```javascript
+    let x = prompt("Su número");
+    if (x < 0) {
+      document.write("Negativo");
+    }
+    if (Math.abs(x) > 100) {
+      document.write("Tres cifras");
+    }
+    ```
+
+6.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+    
+    ```javascript
+    let x = prompt("Su número");
+    if (x < 1) {
+      document.write("Pequeño");
+      if (x > -1) {
+        document.write("Valor absoluto menor que 1");
+      }
+    }
+    ```
+
+7.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+    
+    ```javascript
+    let x = 5;
+    if (x < 0) {
+      document.write("Negativo");
+    }
+    ```
+
+8.  📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
+    
+    ```javascript
+    let x = 3;
+    if (x < 5) {
+      x = x + 1;
+      if (x > 10) {
+        x = 2*x;
+      }
+      x = x - 1;
+    }
+    console.log(x);
+    ```
+
+9.  📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
+    
+    ```javascript
+    let x = 3;
+    if (x < 5) {
+      x = 5*x;
+    }
+    if (x > 10) {
+      x = x - 1;
+    }
+    console.log(x);
+    ```

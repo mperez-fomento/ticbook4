@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Entiende los porqués',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Crear',
+    Svg: require('../../static/img/create.svg').default,
     description: (
       <>
-        Todo tiene una razón de ser y una historia. Conocerlas ayuda a aprender los conceptos,
-        y facilita recordarlos.
+        Programar es crear soluciones. Resolver problemas
+        pondrá a prueba tu imaginación.
       </>
     ),
   },
   {
-    title: 'Céntrate en lo esencial',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Expresar',
+    Svg: require('../../static/img/js.svg').default,
     description: (
       <>
-        Para que un ordenador funcione como queremos hay que tener en cuenta
-        una infinidad de detalles. Pero hay que empezar por lo esencial.
+        Programar es expresar tus ideas en un nuevo lenguaje:
+        JavaScript (el lenguaje de la web y el más utilizado en la actualidad).
       </>
     ),
   },
   {
-    title: 'Teoría y práctica',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Saber',
+    Svg: require('../../static/img/science.svg').default,
     description: (
       <>
-        Contiene gran cantidad de ejercicios para practicar lo aprendido
-        en la teoría, mejorando la comprensión y la retención.
+        La Ciencia de la Computación tiene su laboratorio (la CPU)
+        y sus experimentos (los programas).
       </>
     ),
   },

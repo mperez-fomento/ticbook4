@@ -159,6 +159,80 @@ if (!esPar(x) && x != 0) {
 }
 ```
 
+
+# Ejercicios
+
+1.  📝 Indica el valor booleano (`true`, `false`) de cada una de las siguientes comparaciones:
+    -   `"Susana" > "Paco"`
+    -   `"susana" > "Paco"`
+    -   `3 > "1"`
+    -   `3 == "3"`
+    -   `3 === "3"`
+    -   `"" == 0`
+    -   `"" === 0`
+
+2.  📝 Indica el valor booleano de cada una de las siguientes expresiones:
+    -   `3 > 1 && 1 > 2`
+    -   `1 > 2 && 3 > 1`
+    -   `2 > 1 && 3 > 1`
+    -   `3 > 1 || 1 > 2`
+    -   `1 > 2 || 3 > 1`
+    -   `1 > 2 || 1 > 3`
+    -   `!(3 > 1)`
+
+3.  Indica el valor booleano de cada una de las siguientes expresiones:
+    -   `3 > 1 || 2 > 1 && 1 > 4`
+    -   `(3 > 1 || 2 > 1) && 1 > 4`
+    -   `3 > 1 || 1 > 2 && 1 > 3 || 1 > 4`
+    -   `(3 > 1 || 1 > 2) && (1 > 3 || 1 > 4)`
+    -   `(3 > 1 || 1 > 2) && 1 > 3 || 1 > 4`
+
+4.  Indica el valor booleano de cada una de las siguientes expresiones:
+    -   `! 1 > 3`
+    -   `!(1 > 3)`
+    -   `!("2" == 2)`
+    -   `"2" != 2`
+    -   `!("2" === 2)`
+    -   `"2" !== 2`
+
+5.  Indica el valor booleano de cada una de las siguientes expresiones:
+    -   `!(1 > 3 && 1 > 2)`
+    -   `!(1 > 3) && !(1 > 2)`
+    -   `!(1 > 3) || !(1 > 2)`
+    -   `!(1 > 3 || 1 > 2)`
+    -   `!(1 > 3) || !("x" < "A" && !(1 == "1"))`
+
+6.  Dadas las siguientes definiciones:
+    
+    ```javascript
+    let a = true;
+    let b = 1 > 2;
+    ```
+    
+    Indica el valor booleano de las siguientes expresiones:
+    
+    -   `a && b`
+    -   `a || b`
+    -   `!a && !b`
+    -   `!(a && !b)`
+    -   `a || !b || a && b`
+
+7.  Escribe una función llamada `esPar` que devuelva un valor booleano que indique si un número dado es par.
+
+8.  Escribe una función llamada `esDivisiblePor3` que devuelva un valor booleano que indique si un número es divisible por 3. Recuerda que el operador `%`, sirve para calcular el resto de una división. Por ejemplo, `17%3===2`, y que un número es divisible por otro si el resto de la división es `0`.
+
+9.  Escribe una función llamada `esDivisiblePor6` que devuelva un valor booleano que indique si un número es divisible por `6`, pero utilizando exclusivamente las funciones `esPar` y `esDivisiblePor3` que has definido en ejercicios anteriores.
+
+10. Escribe una función llamada `esMinuscula` que devuelva un valor booleano que indique si un carácter es una letra minúscula.
+
+11. Escribe una función llamada `esMayuscula` que devuelva un valor booleano que indique si un carácter es una letra mayúscula.
+
+12. Escribe una función llamada `esLetra` que devuelva un valor booleano que indique si un carácter es una letra, pero utilizando exclusivamente las dos funciones `esMinuscula` y `esMayuscula` definidas en ejercicios anteriores.
+
+13. Escribe una función llamada `esVocal` que devuelva un valor booleano que indique si un carácter es una vocal.
+
+14. Escribe una función llamada `esConsonante` que devuelva un valor booleano que indique si un carácter es un carácter es una consonante, pero utilizando exclusivamente las funciones `esLetra` y `esVocal` definidas en ejercicios anteriores.
+
 ## Footnotes
 
 <sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup>

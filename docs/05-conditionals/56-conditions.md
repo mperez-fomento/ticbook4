@@ -162,7 +162,7 @@ if (!esPar(x) && x != 0) {
 
 # Ejercicios
 
-1.  📝 Indica el valor booleano (`true`, `false`) de cada una de las siguientes comparaciones:
+1.  📝 💻 Indica el valor booleano (`true`, `false`) de cada una de las siguientes comparaciones:
     -   `"Susana" > "Paco"`
     -   `"susana" > "Paco"`
     -   `3 > "1"`
@@ -171,7 +171,7 @@ if (!esPar(x) && x != 0) {
     -   `"" == 0`
     -   `"" === 0`
 
-2.  📝 Indica el valor booleano de cada una de las siguientes expresiones:
+2.  📝 💻 Indica el valor booleano de cada una de las siguientes expresiones:
     -   `3 > 1 && 1 > 2`
     -   `1 > 2 && 3 > 1`
     -   `2 > 1 && 3 > 1`
@@ -180,14 +180,14 @@ if (!esPar(x) && x != 0) {
     -   `1 > 2 || 1 > 3`
     -   `!(3 > 1)`
 
-3.  Indica el valor booleano de cada una de las siguientes expresiones:
+3.  📝 💻 Indica el valor booleano de cada una de las siguientes expresiones:
     -   `3 > 1 || 2 > 1 && 1 > 4`
     -   `(3 > 1 || 2 > 1) && 1 > 4`
     -   `3 > 1 || 1 > 2 && 1 > 3 || 1 > 4`
     -   `(3 > 1 || 1 > 2) && (1 > 3 || 1 > 4)`
     -   `(3 > 1 || 1 > 2) && 1 > 3 || 1 > 4`
 
-4.  Indica el valor booleano de cada una de las siguientes expresiones:
+4.  📝 💻 Indica el valor booleano de cada una de las siguientes expresiones:
     -   `! 1 > 3`
     -   `!(1 > 3)`
     -   `!("2" == 2)`
@@ -195,14 +195,14 @@ if (!esPar(x) && x != 0) {
     -   `!("2" === 2)`
     -   `"2" !== 2`
 
-5.  Indica el valor booleano de cada una de las siguientes expresiones:
+5.  📝 💻 Indica el valor booleano de cada una de las siguientes expresiones:
     -   `!(1 > 3 && 1 > 2)`
     -   `!(1 > 3) && !(1 > 2)`
     -   `!(1 > 3) || !(1 > 2)`
     -   `!(1 > 3 || 1 > 2)`
     -   `!(1 > 3) || !("x" < "A" && !(1 == "1"))`
 
-6.  Dadas las siguientes definiciones:
+6.  📝 💻 Dadas las siguientes definiciones:
     
     ```javascript
     let a = true;
@@ -217,21 +217,21 @@ if (!esPar(x) && x != 0) {
     -   `!(a && !b)`
     -   `a || !b || a && b`
 
-7.  Escribe una función llamada `esPar` que devuelva un valor booleano que indique si un número dado es par.
+7.  📝 💻 Escribe una función llamada `esPar` que devuelva un valor booleano que indique si un número dado es par.
 
-8.  Escribe una función llamada `esDivisiblePor3` que devuelva un valor booleano que indique si un número es divisible por 3. Recuerda que el operador `%`, sirve para calcular el resto de una división. Por ejemplo, `17%3===2`, y que un número es divisible por otro si el resto de la división es `0`.
+8.  📝 💻 Escribe una función llamada `esDivisiblePor3` que devuelva un valor booleano que indique si un número es divisible por 3. Recuerda que el operador `%`, sirve para calcular el resto de una división. Por ejemplo, `17%3===2`, y que un número es divisible por otro si el resto de la división es `0`.
 
-9.  Escribe una función llamada `esDivisiblePor6` que devuelva un valor booleano que indique si un número es divisible por `6`, pero utilizando exclusivamente las funciones `esPar` y `esDivisiblePor3` que has definido en ejercicios anteriores.
+9.  📝 💻 Escribe una función llamada `esDivisiblePor6` que devuelva un valor booleano que indique si un número es divisible por `6`, pero utilizando exclusivamente las funciones `esPar` y `esDivisiblePor3` que has definido en ejercicios anteriores.
 
-10. Escribe una función llamada `esMinuscula` que devuelva un valor booleano que indique si un carácter es una letra minúscula.
+10. 📝 💻 Escribe una función llamada `esMinuscula` que devuelva un valor booleano que indique si un carácter es una letra minúscula.
 
-11. Escribe una función llamada `esMayuscula` que devuelva un valor booleano que indique si un carácter es una letra mayúscula.
+11. 📝 💻 Escribe una función llamada `esMayuscula` que devuelva un valor booleano que indique si un carácter es una letra mayúscula.
 
-12. Escribe una función llamada `esLetra` que devuelva un valor booleano que indique si un carácter es una letra, pero utilizando exclusivamente las dos funciones `esMinuscula` y `esMayuscula` definidas en ejercicios anteriores.
+12. 📝 💻 Escribe una función llamada `esLetra` que devuelva un valor booleano que indique si un carácter es una letra, pero utilizando exclusivamente las dos funciones `esMinuscula` y `esMayuscula` definidas en ejercicios anteriores.
 
-13. Escribe una función llamada `esVocal` que devuelva un valor booleano que indique si un carácter es una vocal.
+13. 📝 💻 Escribe una función llamada `esVocal` que devuelva un valor booleano que indique si un carácter es una vocal.
 
-14. Escribe una función llamada `esConsonante` que devuelva un valor booleano que indique si un carácter es un carácter es una consonante, pero utilizando exclusivamente las funciones `esLetra` y `esVocal` definidas en ejercicios anteriores.
+14. 📝 💻 Escribe una función llamada `esConsonante` que devuelva un valor booleano que indique si un carácter es un carácter es una consonante, pero utilizando exclusivamente las funciones `esLetra` y `esVocal` definidas en ejercicios anteriores.
 
 ## Footnotes
 

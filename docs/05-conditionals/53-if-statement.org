@@ -40,6 +40,50 @@ El diagrama de flujo correspondiente sería el siguiente:
 
 ** Ejercicios
 
+1. 📝 💻 Dadas las siguientes funciones:
+
+    #+begin_src javascript
+      // La función 'next_even' devuelve el número par siguiente
+      function next_even(num)
+      {
+          return 2*Math.floor(num/2) + 2;
+      }
+
+      // La función 'next_odd' devuelve el número impar siguiente
+      function next_odd(num)
+      {
+          return 2*Math.floor((num+1)/2) + 1;
+      }
+    #+end_src
+
+    Nota: =Math.floor(x)=, donde =x= es un número, devuelve la parte entera de =x=. Por ejemplo, =Math.floor(3.6)= devuelve =3=.
+
+    Escribe los valores de las expresiones siguientes (debes escribir todos los pasos intermedios, indicando las sustituciones una a una):
+    - =next_even(5)=
+    - =next_odd(5)=
+    - =next_even(next_odd(5))=
+    - =next_odd(next_even(5))=
+    - =next_even(next_odd(next_even(5)))=
+    - =next_even(1 + next_odd(5)) - next_even(6)=
+
+2. 📝 💻 A continuación se muestran las definiciones de un objeto y una función:
+
+   #+begin_src javascript
+let c = new Circle(100, "red");
+
+function changeColor()
+{
+    if (c.color == "red") {
+        c.color = "blue";
+    }
+    else {
+        c.color = "red";
+    }
+}
+   #+end_src
+
+   Queremos que la función =changeColor= se ejecute cada vez que hagamos clic encima del círculo =c=. ¿Qué sentencia tendríamos que escribir para eso?
+
 1. 📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
 
   #+begin_src javascript

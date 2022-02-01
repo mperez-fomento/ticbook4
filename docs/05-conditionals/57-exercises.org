@@ -1,0 +1,58 @@
+* Ejercicios
+
+1. 💻 🔎 🛸 Escribe una función llamada ~esPalindromo~, que devuelva un valor booleano indicando si una frase es un /palíndromo/ (es decir, se lee igual de derecha a izquierda que de izquierda a derecha, ignorando los espacios en blanco y comas y otros signos de puntuación, ni los acentos, ni, por tanto, las tildes). Ten en cuenta que las letras mayúsculas y minúsculas se leen igual. No consideraremos palíndromo (aunque realmente lo sea) a un texto que se lee igual en ambos sentidos pero difieren en algunas letras ~h~ (que son casi siempre /mudas/).
+
+   Ejemplo:
+   #+begin_src javascript
+console.log(esPalindromo("Se van sus naves")); // true
+console.log(esPalindromo("La ruta nos aportó otro paso natural")); // true
+console.log(esPalindromo("A ti no, bonita")); // true
+console.log(esPalindromo("Esto no es un palíndromo")); // false
+   #+end_src
+
+   Indicación: la manera de detectar un palíndromo es comparando el texto con el texto invertido. Pero, antes de invertirlo, será necesario convertir todas las letras a minúsculas (o todas a mayúsculas), y eliminar los espacios y las comas, y sustituir las vocales con tilde con las vocales sin tilde. Serán de utilidad los siguientes métodos estándar:
+
+   #+begin_src javascript
+let texto = "Cualquier,Texto";
+text.toLocaleLowerCase(); // Devuelve un String conviertiendo el texto en minúsculas: "cualquier texto".
+text.replace(",", ""); // Devuelve un String reemplazando las comas por nada: ".
+text.split("").reverse().join(""); // Devuelve un String invirtiendo los caracteres de text: "otxet reiuqlauC".
+   #+end_src
+
+   Aquí tienes algunos palíndromos, para comprobar que tu función los detecta correctamente:
+
+   - /Ana lleva al oso la avellana/
+   - /Dábale arroz a la zorra el abad/
+   - /Ella te da detalle/
+
+2. 💻 🔎 Escribe una función llamada ~esCapicua~, que devuelva un valor booleano indicando si un número entero positivo es /capicúa/ (es decir, coincide con el número que se obtiene al escribir sus cifras en orden inverso).
+
+   Ejemplo:
+   #+begin_src javascript
+console.log(esCapicua(123)); // false
+console.log(esCapicua(12321)); // true
+   #+end_src
+
+   Indicación: hay dos métodos para resolver este problema:
+   - Convertir el número en un ~String~, y comprobar si coincide con el ~String~ invertido (ver ejercicio anterior). Para convertir un número en ~String~ se puede usar el método ~toString()~:
+     #+begin_src javascript
+let x = 1234;
+let s = x.toString();
+console.log(s); // "1234"
+console.log(s.split("").reverse().join("")); // "4321"
+     #+end_src
+   - Calcular el valor del número invertido multiplicando cada cifra por la potencia de diez que le correspondería al invertir las cifras, y comparar este valor invertido con el número original. Para este segundo método sería necesario utilizar bucles o métodos sobre /arrays/, que no hemos estudiado todavía.
+
+3. 💻 🔎 Escribe una función llamada ~esBisiesto~ que devuelva un valor booleano indicando si un año es o no bisiesto.
+
+   Ejemplo:
+   #+begin_src javascript
+console.log(esBisiesto(2022)); // false
+console.log(esBisiesto(2024)); // true
+console.log(esBisiesto(2100)); // false
+console.log(esBisiesto(2400)); // true
+   #+end_src
+
+   Indicación: busca cuáles son las reglas para saber si un año es o no bisiesto.
+
+4. Escribe una función llamada

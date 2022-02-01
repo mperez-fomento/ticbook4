@@ -47,7 +47,52 @@ El diagrama de flujo correspondiente sería el siguiente:
 
 ## Ejercicios
 
-1.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+1.  📝 💻 Dadas las siguientes funciones:
+    
+    ```javascript
+          // La función 'next_even' devuelve el número par siguiente
+          function next_even(num)
+          {
+              return 2*Math.floor(num/2) + 2;
+          }
+    
+          // La función 'next_odd' devuelve el número impar siguiente
+          function next_odd(num)
+          {
+              return 2*Math.floor((num+1)/2) + 1;
+          }
+    ```
+    
+    Nota: `Math.floor(x)`, donde `x` es un número, devuelve la parte entera de `x`. Por ejemplo, `Math.floor(3.6)` devuelve `3`.
+    
+    Escribe los valores de las expresiones siguientes (debes escribir todos los pasos intermedios, indicando las sustituciones una a una):
+    
+    -   `next_even(5)`
+    -   `next_odd(5)`
+    -   `next_even(next_odd(5))`
+    -   `next_odd(next_even(5))`
+    -   `next_even(next_odd(next_even(5)))`
+    -   `next_even(1 + next_odd(5)) - next_even(6)`
+
+2.  📝 💻 A continuación se muestran las definiciones de un objeto y una función:
+    
+    ```javascript
+    let c = new Circle(100, "red");
+    
+    function changeColor()
+    {
+        if (c.color == "red") {
+            c.color = "blue";
+        }
+        else {
+            c.color = "red";
+        }
+    }
+    ```
+    
+    Queremos que la función `changeColor` se ejecute cada vez que hagamos clic encima del círculo `c`. ¿Qué sentencia tendríamos que escribir para eso?
+
+3.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
     
     ```javascript
     let x = 5;
@@ -56,7 +101,7 @@ El diagrama de flujo correspondiente sería el siguiente:
     }
     ```
 
-2.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+4.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
     
     ```javascript
     let x = prompt("Escriba un número");
@@ -66,15 +111,15 @@ El diagrama de flujo correspondiente sería el siguiente:
     document.write(x);
     ```
 
-3.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
+5.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
     
     ![img](../../static/img/ticbook4-ej5.3.3.drawio.png)
 
-4.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
+6.  📝 💻 Escribe el código correspondiente al siguiente diagrama de flujo:
     
     ![img](../../static/img/ticbook4-ej5.3.4.drawio.png)
 
-5.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+7.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
     
     ```javascript
     let x = prompt("Su número");
@@ -86,7 +131,7 @@ El diagrama de flujo correspondiente sería el siguiente:
     }
     ```
 
-6.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+8.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
     
     ```javascript
     let x = prompt("Su número");
@@ -98,7 +143,7 @@ El diagrama de flujo correspondiente sería el siguiente:
     }
     ```
 
-7.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
+9.  📝 Dibuja el diagrama de flujo correspondiente al siguiente fragmento de código:
     
     ```javascript
     let x = 5;
@@ -107,7 +152,7 @@ El diagrama de flujo correspondiente sería el siguiente:
     }
     ```
 
-8.  📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
+10. 📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
     
     ```javascript
     let x = 3;
@@ -121,7 +166,7 @@ El diagrama de flujo correspondiente sería el siguiente:
     console.log(x);
     ```
 
-9.  📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
+11. 📝 💻 ¿Qué número aparecerá en la consola al ejecutar el siguiente código?
     
     ```javascript
     let x = 3;
